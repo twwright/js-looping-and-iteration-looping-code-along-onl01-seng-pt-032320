@@ -3,9 +3,9 @@
 function writeCards(arr, event) {
   const thankYouCards = [];
   for (let i = 0; i < arr.length; i++) {
-    console.log(`Thank you, ${arr[i]}, for the wonderful ${event} gift!`);
+    thankYouCards.push(`Thank you, ${arr[i]}, for the wonderful ${event} gift!`);
   }
-  return arr;
+  return thankYouCards;
 }
 
 function countDown(int) {
