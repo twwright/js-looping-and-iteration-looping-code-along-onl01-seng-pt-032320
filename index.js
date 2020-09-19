@@ -10,4 +10,5 @@ function countDown(int) {
   while (int > 0) {
     console.log(int--);
   }
+  console.log(int);
 }
