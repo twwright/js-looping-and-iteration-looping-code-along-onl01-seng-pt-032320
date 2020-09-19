@@ -6,3 +6,9 @@ function writeCards(arr, event) {
   }
 }
 
+function countDown(int) {
+  let i = 0;
+  while (i < int) {
+    console.log(int--);
+  }
+}
